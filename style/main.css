@@ -1,0 +1,140 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	background-color: #ffffff;
+}
+
+#main{
+	position: relative;
+	min-height: 500px;
+	box-shadow: 0px 0px 50px 2px black;
+	margin: 30px auto;
+	background-color: #dedede;
+}
+
+.main_header{
+	background-color:#dedede; 
+}
+
+#style_head_file{
+	font-style: italic;
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 30px;
+	text-align: center;
+	color: #6a7334;
+}
+
+#alarm{
+	position: relative;
+	height: 100px;
+	min-height: 100px;
+}
+
+#style_head_maneger{
+	font-style: italic;
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 30px;
+	text-align: center;
+	color: #713c1c;
+}
+
+#style_head_head_manager{
+	font-style: italic;
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 20px;
+	text-align: center;
+	color: #6a7334;
+}
+
+#this_catalog{
+	width: 90%;
+	height: 50px;
+	position: relative;
+	margin: 5px auto;
+	font-style: italic;
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 15px;
+	text-align: center;
+	color: #713c1c;
+	vertical-align: center;
+	padding: 5px;
+}
+
+.main_block{
+	position: relative;
+	width: 90%;
+	min-height: 400px;
+	margin: 10px auto;
+}
+
+table{
+	width: 100%;
+	margin: 10px auto;
+}
+
+th{
+	text-align: center;
+}
+
+td{
+	text-align: center;
+	cursor: pointer;
+}
+
+.link_table:hover{
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+#test{
+	position: relative;
+	width: 400px;
+	height: 300px;
+	top:200px;
+	left: 20px;
+	z-index: 20;
+}
+
+#test1{
+	position: relative;
+	height: 100px;
+	width: 100px;
+	border: 2px solid black;
+	margin: 10px;
+}
+#test2{
+	position: relative;
+	height: 100px;
+	width: 100px;
+	border: 2px solid red;
+	margin: 10px;
+}
+
+.info_catalog{
+	top: 10px;
+	position: relative;
+	width: 400px;
+	min-height: 200px;
+	border: 1px solid black;
+	margin: 10px auto;
+	background-color: #e7c27c;
+	z-index: 1;
+	border-radius: 10px 10px 19px 10px;
+	box-shadow: 0px 0px 10px 1px grey;
+}
+
+.fl{
+	float: left;
+	margin: 10px;
+}
+
+#test_block{
+    width:100px;
+    height:100px;
+    position:relative;
+    margin:10px auto;
+    background-color:red;
+}
